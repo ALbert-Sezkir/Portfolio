@@ -384,11 +384,21 @@ position: relative;
 
 }
 
+.projects .box-container .box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+
 .project-info {
     padding: 20px;
     max-width: 45%;
     margin-right: 5%;
 }
+
 
 .project-info h3 {
     margin-bottom: 10px;
@@ -408,6 +418,7 @@ position: relative;
     gap: 10px;
 }
 
+
 .tech-tags span {
     background-color: #333;
     color: #fff;
@@ -415,6 +426,25 @@ position: relative;
     border-radius: 5px;
     font-size: 14px;
 }
+
+.skills-tech-tags span {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.skill-box .skills-tech-tags{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 70px;
+    justify-content: center;
+    
+
+}
+
 
 .contact .row{
     display: flex;
