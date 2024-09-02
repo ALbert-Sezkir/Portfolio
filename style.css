@@ -284,13 +284,13 @@ header.toggle{
     justify-content: space-between; 
     flex-wrap: wrap; 
     padding: 1rem 0; 
-    padding-left: 3rem;
+    padding-left: 4rem;
 }
 
 .experience .box-container .box{
 width: 35rem;
 margin: 4rem 1rem;
-padding-left: 4rem; 
+padding-left: 1rem; 
 border-left: .2rem solid #fff;
 position: relative; 
 
