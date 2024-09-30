@@ -373,7 +373,7 @@ position: relative;
     height: 270px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin: 110px -20px -25px;
+    margin: 10px -20px -25px;
     object-fit: cover;
     
 } 
@@ -383,7 +383,7 @@ position: relative;
     height: 270px;
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-    margin: 10px -20px -25px;
+    margin: 110px -20px -25px;
     object-fit: cover;
     
 } 
