@@ -398,6 +398,16 @@ position: relative;
     
 } 
 
+.projects .box-container .box .WonderWiseImg{
+    max-width: 45%;
+    height: 270px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px -20px -25px;
+    object-fit: cover;
+    
+} 
+
 .projects .box-container .box:hover img{
 
     transform: scale(1.2); rotate: -5deg;
