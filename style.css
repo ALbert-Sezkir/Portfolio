@@ -314,7 +314,7 @@ position: relative;
 .experience .box-container .box p {
     font-size: 1.4rem;
     color: #eee;
-    padding-top: 1rem 0;  
+    padding: 1rem 0;  
 
 } 
 
@@ -331,6 +331,7 @@ position: relative;
     background: var(--yellow);
 
 } 
+
 
 .projects .box-container{
     display: flex;
@@ -550,11 +551,8 @@ position: relative;
 
 }
 
-/* Specifik stil för sista erfarenhetsrutan */
-.software-box {
-    margin-left: 5rem;
-    width: 45rem;
-}
+
+
 
 
 /* media queries */
