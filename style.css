@@ -550,9 +550,31 @@ position: relative;
 
 }
 
+/* Specifik stil för sista erfarenhetsrutan */
+.software-box {
+    margin-left: 5rem;
+    width: 45rem;
+}
 
 
 /* media queries */
+
+
+@media (max-width: 991px) {
+    .software-box {
+        margin-left: auto;
+        margin-right: auto;
+        width: 90%;
+    }
+}
+
+/* Ännu smalare mobilskärmar */
+@media (max-width: 480px) {
+    .software-box {
+        width: 95%;
+        padding-left: 1rem;
+    }
+}
 
 @media(max-width: 1200px){
     html {
